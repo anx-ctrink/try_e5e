@@ -1,4 +1,4 @@
 def myfunction(event, context):
     return {
-        'data': 'Hello world!',
+        'data': event['data']['a'] + event['data']['b'],
     }
