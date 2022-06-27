@@ -1,3 +1,4 @@
+<?php
 import os
  
 function func_print_test_env($event, $context)
